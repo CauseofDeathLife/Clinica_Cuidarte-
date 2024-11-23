@@ -18,7 +18,7 @@ body {
     width: 100%;
     margin: auto;
     max-width: 1200px;
-    background-image: url(../images/fondo_1.jpg);
+    background-image: url(../images/10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -85,8 +85,89 @@ nav a:hover{
 }
 main{
     min-height: 100vh;
-    padding: 404px 60px 40px 60px;
+    padding: 450px 600px 80px 50px;
+    
 }
+
+main h2 {
+    color: whitesmoke;
+}
+
+.formulario_citas {
+    background: rgba(20, 151, 118, 0.479);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px rgb(21, 22, 22);
+}
+
+.formulario_grupo {
+    margin-bottom: 20px;
+}
+
+.formulario_citas label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: whitesmoke; 
+}
+
+.formulario_citas input,
+.formulario_citas select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid  rgba(86, 83, 88, 0.671);
+    border-radius: 15px;
+    transition: border 0.3s;
+}
+
+.formulario_citas input:focus,
+.formulario_citas select:focus {
+    border-color: rgba(20, 151, 118, 0.7);
+}
+
+.formulario_citas button {
+    background-color: whitesmoke;
+    color: rgba(20, 151, 118, 0.7);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid  rgba(86, 83, 88, 0.671);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+
+.formulario_citas button:hover {
+    background-color: rgba(86, 83, 88, 0.671);
+}
+
+main .main{
+    min-height: 35vh;
+    display: flex;
+    width: 160vh;
+}
+
+main .main .a-left{
+    flex: 20vh;
+}
+
+main .main .a-rigth {
+    flex: 25vh;
+    
+    padding-top: 110px;
+    padding-left: 45px;
+    
+}
+
+.a-rigth img{
+    
+    width: 350px;
+    padding: 5px 5px;
+    border-radius: 30px;
+    
+}
+
+
+
 footer{
     width: 100%;
     background-color: rgba(0, 0, 0,0.7);
@@ -97,6 +178,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
 footer a{
     color: white;
 }
@@ -107,27 +189,9 @@ footer img{
 img{
     width: 100%;
 }
-.left img{
-    float: left;
-    width: 380px;
-    padding: 30px;
-    border-radius: 90px
-}
 
-.right img{
-    float: right;
-    width: 380px;
-    padding: 30px;
-    border-radius: 90px
-}
-.clean{
-    clear: both;
-}
 p{
     text-align: justify;
     line-height: 25px;
     margin-bottom: 35px;
-}
-.top1{
-    padding-top: 5%;
 }
