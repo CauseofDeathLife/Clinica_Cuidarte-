@@ -95,7 +95,7 @@ main h2 {
 main .main{
     min-height: 35vh;
     display: flex;
-    width: 160vh;
+    width: 100vh;
 }
 
 main .main .a-left{
@@ -103,21 +103,25 @@ main .main .a-left{
 }
 
 main .main .a-rigth {
-    flex: 45vh;
+    position: relative;
+    bottom: 5vh;
+    left: 10vh;
     padding-top: 110px;
-    padding-left: 25px;
+    padding-right: 225px;
 }
 
 .a-rigth img{
     width: 450px;
     padding: 5px 5px;
     border-radius: 30px;
+    
+    
 }
 
 .tratamientos nav {
-    position: absolute;
-    right: 102vh;
-    bottom: 10vh;
+    position: relative;
+    right: 2vh;
+    bottom: 2vh;
 }
 
 .tratamientos nav a{
